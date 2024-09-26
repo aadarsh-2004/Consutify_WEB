@@ -6,7 +6,7 @@ const Card = () => {
       <div className="flex justify-between items-center">
         <div className="flex items-center">
           <img
-            src="https://via.placeholder.com/50" // Replace with your icon
+            src="https://via.placeholder.com/50" 
             alt="Logo"
             className="rounded-full w-12 h-12"
           />

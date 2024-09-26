@@ -1,5 +1,3 @@
-
-import NAVBAR from "../component/NAVBAR";
 import Expert_cards from "../component/Expert_cards";
 import Testimonials from "../component/Testimonials";
 import Feature_card from "../component/Feature_card";
@@ -7,12 +5,7 @@ import Feature_card from "../component/Feature_card";
 const LANDINGPAGE = () => {
   return (
     <>
-      {/* NAVBAR */}
-      <div>
-        <NAVBAR />
-      </div>
-
-        <div className="bg-gradient-to-r from-white via-blue-50 to-blue-100 w-screen min-h-screen flex flex-col items-center">
+        <div className="bg-gradient-to-r from-white via-blue-50 to-blue-100 w-screen min-h-screen flex flex-col items-center  overflow-x-hidden">
 
             {/* SECTION 1: HOARDING */}
             <div className="bg-gradient-to-r from-white via-blue-50 to-blue-100 w-full flex justify-between p-12">
@@ -99,6 +92,7 @@ const LANDINGPAGE = () => {
             <div className="w-screen mt-36">
                 <Testimonials/>
             </div>
+            
         
         </div>
     </>
